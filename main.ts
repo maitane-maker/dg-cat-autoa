@@ -1,0 +1,16 @@
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Run, 225)
+basic.pause(100)
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Back, 225)
+basic.pause(100)
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Left, 225)
+basic.pause(100)
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Right, 225)
+basic.pause(100)
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Stop, 225)
+basic.pause(100)
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_SpinLeft, 225)
+basic.pause(100)
+mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_SpinRight, 225)
+basic.forever(function () {
+	
+})
